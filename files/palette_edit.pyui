@@ -1,0 +1,425 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 8}, {256, 32}}",
+            "class" : "ImageView",
+            "attributes" : {
+              "corner_radius" : 0,
+              "frame" : "{{110, 150}, {100, 100}}",
+              "uuid" : "455BFD0B-6F25-46CA-B6DD-4A4E08908DCB",
+              "class" : "ImageView",
+              "name" : "img_0",
+              "border_width" : 1
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{32, 48}, {224, 48}}",
+            "class" : "Button",
+            "attributes" : {
+              "border_width" : 1,
+              "action" : "",
+              "image_name" : "iob:ios7_checkmark_24",
+              "frame" : "{{120, 184}, {80, 32}}",
+              "title" : "",
+              "uuid" : "9ECA2D00-D88B-4B6E-81CE-E70FEC8ED895",
+              "class" : "Button",
+              "corner_radius" : 0,
+              "font_size" : 15,
+              "name" : "select_0"
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{0, 160}, {320, 320}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{80, 0}, {320, 320}}",
+          "uuid" : "955EC9BD-D3B7-4146-A2A0-370575E8A874",
+          "content_height" : 320,
+          "class" : "ScrollView",
+          "content_width" : 320,
+          "corner_radius" : 0,
+          "name" : "scroll_lcl"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "class" : "Button",
+          "corner_radius" : 4,
+          "name" : "bt_col_0",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{72, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{184, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "alpha" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{240, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_4"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{296, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_5"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{352, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{408, 16}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_select_col",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "A09E52C1-EF4C-470C-933D-5902EE9964FD",
+          "corner_radius" : 4,
+          "font_size" : 15,
+          "name" : "bt_col_7"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{328, 86}, {128, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 1,
+          "font_size" : 18,
+          "alignment" : "center",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "CA4B64BF-1DAD-42DA-B81D-37462F5DDE1C",
+          "class" : "Label",
+          "text" : "",
+          "number_of_lines" : 0,
+          "corner_radius" : 0,
+          "name" : "lb_hex",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 86}, {64, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 1,
+          "alignment" : "left",
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "CA4B64BF-1DAD-42DA-B81D-37462F5DDE1C",
+          "class" : "Label",
+          "text" : "",
+          "number_of_lines" : 0,
+          "corner_radius" : 0,
+          "font_size" : 18,
+          "name" : "lb_r"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{88, 86}, {64, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 1,
+          "font_size" : 18,
+          "name" : "lb_g",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "CA4B64BF-1DAD-42DA-B81D-37462F5DDE1C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "number_of_lines" : 0,
+          "corner_radius" : 0,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{160, 86}, {64, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 1,
+          "corner_radius" : 0,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "CA4B64BF-1DAD-42DA-B81D-37462F5DDE1C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "number_of_lines" : 0,
+          "font_size" : 18,
+          "name" : "lb_b"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{232, 86}, {64, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 1,
+          "corner_radius" : 0,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "CA4B64BF-1DAD-42DA-B81D-37462F5DDE1C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "number_of_lines" : 0,
+          "font_size" : 18,
+          "name" : "lb_a"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{360, 160}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_add",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "add",
+          "uuid" : "39CEF7EC-B5AF-436D-976B-3A703AC840B8",
+          "font_bold" : false,
+          "class" : "Button",
+          "corner_radius" : 4,
+          "name" : "bt_add",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{340, 420}, {120, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.close_view",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "Close",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_close",
+          "font_size" : 14
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{360, 260}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.palette_edit_change",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "mode",
+          "uuid" : "39CEF7EC-B5AF-436D-976B-3A703AC840B8",
+          "font_bold" : false,
+          "class" : "Button",
+          "corner_radius" : 4,
+          "name" : "bt_mode",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{-160, 160}, {320, 320}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{80, 0}, {320, 320}}",
+          "content_width" : 320,
+          "content_height" : 320,
+          "class" : "ScrollView",
+          "uuid" : "955EC9BD-D3B7-4146-A2A0-370575E8A874",
+          "corner_radius" : 0,
+          "name" : "scroll_glb"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{330, 350}, {120, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lb_mode",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "FA6BEE65-B349-4364-A8AA-9CD04CBE79F4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "mode: local",
+          "font_size" : 16,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "palette edit",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

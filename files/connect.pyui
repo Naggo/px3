@@ -1,0 +1,114 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {240, 320}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "frame" : "{{-40, 340}, {320, 320}}",
+          "uuid" : "865BE8A7-E8B4-4086-B6BC-25B88B5BC6F3",
+          "content_height" : 320,
+          "class" : "ScrollView",
+          "content_width" : 240,
+          "corner_radius" : 0,
+          "name" : "scroll"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{280, 40}, {160, 160}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{190, 190}, {100, 100}}",
+          "corner_radius" : 0,
+          "class" : "ImageView",
+          "name" : "image",
+          "uuid" : "69277FD5-9D8C-40C5-BFE4-D1FCDD249433"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{248, 250}, {96, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "self.connect_change",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "mode: Z",
+          "uuid" : "B8FA910E-36D3-477F-9AB7-A809CF75742D",
+          "class" : "Button",
+          "corner_radius" : 8,
+          "font_bold" : false,
+          "border_color" : "RGBA(0.200000,0.200000,0.800000,1.000000)",
+          "name" : "bt_mode",
+          "font_size" : 14
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{360, 270}, {110, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.close_view",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "OK",
+          "class" : "Button",
+          "uuid" : "B8FA910E-36D3-477F-9AB7-A809CF75742D",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "font_size" : 14,
+          "name" : "bt_ok"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{248, 208}, {96, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "self.connect_change",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "reverse: OFF",
+          "uuid" : "B8FA910E-36D3-477F-9AB7-A809CF75742D",
+          "class" : "Button",
+          "corner_radius" : 8,
+          "font_bold" : false,
+          "name" : "bt_reverse",
+          "font_size" : 14
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "connect",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

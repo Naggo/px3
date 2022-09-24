@@ -1,0 +1,295 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 30}, {256, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "action" : "self.col_mixer_slider",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "EEC1AB04-2409-4C90-BD37-C72D603BEEFD",
+          "value" : 0.5,
+          "name" : "sl_red"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 90}, {256, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(0.000000,1.000000,0.000000,1.000000)",
+          "action" : "self.col_mixer_slider",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "value" : 0.5,
+          "uuid" : "24DD30D7-5087-44FF-BA7B-34FA81E96B25",
+          "name" : "sl_green"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 150}, {256, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "action" : "self.col_mixer_slider",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "value" : 0.5,
+          "uuid" : "01C997A5-D740-4147-A0FA-984D6B0E496C",
+          "name" : "sl_blue"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 260}, {160, 60}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "D99C092E-BDFC-4941-8FDF-52C88FEE8246",
+          "corner_radius" : 4,
+          "frame" : "{{60, 144}, {200, 32}}",
+          "secure" : false,
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "self.col_mixer_text",
+          "text" : "",
+          "placeholder" : "Color",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_color",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{204, 440}, {160, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.close_view",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "OK",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "font_size" : 14,
+          "name" : "bt_ok"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 210}, {256, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "self.col_mixer_slider",
+          "alpha" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "01C997A5-D740-4147-A0FA-984D6B0E496C",
+          "value" : 1,
+          "name" : "sl_alpha"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{290, 205}, {80, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "D99C092E-BDFC-4941-8FDF-52C88FEE8246",
+          "corner_radius" : 4,
+          "frame" : "{{60, 144}, {200, 32}}",
+          "border_width" : 2,
+          "action" : "self.col_mixer_text",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_alpha",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{290, 25}, {80, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "0A7D875A-2BCC-4AC2-B352-B5505FF7E56A",
+          "corner_radius" : 4,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "self.col_mixer_text",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_red",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{290, 85}, {80, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "0A7D875A-2BCC-4AC2-B352-B5505FF7E56A",
+          "corner_radius" : 4,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "self.col_mixer_text",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_green",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{290, 145}, {80, 44}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "0A7D875A-2BCC-4AC2-B352-B5505FF7E56A",
+          "corner_radius" : 4,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "self.col_mixer_text",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_blue",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 440}, {120, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.col_mixer_cancel",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "Cancel",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "font_size" : 14,
+          "name" : "bt_cancel"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{290, 270}, {80, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 0,
+          "font_size" : 19,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "4ECCC335-0841-4FD4-9CF2-E5C4A5D0B448",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "error!",
+          "name" : "lb_error",
+          "text_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 260}, {80, 150}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "self.col_mixer_picker",
+          "frame" : "{{160, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "0EF06DEE-E059-4FFA-8D2B-33A1C2754819",
+          "class" : "Button",
+          "corner_radius" : 8,
+          "name" : "bt_color",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {400, 500}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "MoveView",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "color mixer"
+    },
+    "selected" : false
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{280, 400}, {160, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.close_view",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "Close",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_close",
+          "font_size" : 14
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{220, 16}, {128, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "221D5366-12A7-4529-AC9D-2170ED87CB13",
+          "corner_radius" : 4,
+          "frame" : "{{140, 224}, {200, 32}}",
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "self.option_bgc",
+          "text" : "#ffffff",
+          "placeholder" : "#rrggbb",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_bgc",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 16}, {180, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "name" : "lb_bgc",
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "background color :",
+          "alignment" : "center",
+          "font_size" : 18,
+          "corner_radius" : 0
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 192}, {160, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "corner_radius" : 0,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "display alert :",
+          "alignment" : "center",
+          "font_size" : 18,
+          "name" : "lb_da"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{192, 192}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{215, 225}, {51, 31}}",
+          "class" : "Switch",
+          "corner_radius" : 15,
+          "value" : true,
+          "uuid" : "35CE7900-6E4B-48AA-93B2-2CAFB54D67F0",
+          "name" : "sw_da"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{380, 16}, {64, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.option_bgc",
+          "frame" : "{{200, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "1CE3BC59-4267-46BD-ADEA-C7EA3E21A258",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "bt_bgc",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 256}, {160, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "corner_radius" : 0,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "auto tool :",
+          "alignment" : "center",
+          "font_size" : 18,
+          "name" : "lb_at"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{192, 256}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{215, 225}, {51, 31}}",
+          "class" : "Switch",
+          "corner_radius" : 15,
+          "value" : true,
+          "uuid" : "35CE7900-6E4B-48AA-93B2-2CAFB54D67F0",
+          "name" : "sw_at"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 64}, {280, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "LR",
+          "border_width" : 2,
+          "segments" : "Select|Mixer|Picker",
+          "frame" : "{{196, 226}, {120, 29}}",
+          "alpha" : 1,
+          "class" : "SegmentedControl",
+          "uuid" : "1A1078E1-1D34-484B-8926-E21CBF435661",
+          "corner_radius" : 10,
+          "name" : "seg_ct"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 64}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "color type :",
+          "alignment" : "center",
+          "name" : "lb_ct",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 112}, {160, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "font_size" : 18,
+          "name" : "lb_dg",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "corner_radius" : 0,
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "display grid :",
+          "alignment" : "center",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{192, 112}, {192, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "221D5366-12A7-4529-AC9D-2170ED87CB13",
+          "corner_radius" : 4,
+          "frame" : "{{140, 224}, {200, 32}}",
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "4x4",
+          "placeholder" : "W x H (hidden is -1)",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_dg",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{400, 112}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{215, 225}, {51, 31}}",
+          "class" : "Switch",
+          "corner_radius" : 15,
+          "value" : false,
+          "uuid" : "35CE7900-6E4B-48AA-93B2-2CAFB54D67F0",
+          "name" : "sw_dg"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 192}, {128, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 3,
+          "font_size" : 18,
+          "name" : "lb_ps",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "class" : "Label",
+          "corner_radius" : 0,
+          "number_of_lines" : 0,
+          "uuid" : "348CF423-ED20-4793-BB15-F34CB3B9D84B",
+          "text" : "play sound :",
+          "alignment" : "center",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{400, 192}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{215, 225}, {51, 31}}",
+          "class" : "Switch",
+          "corner_radius" : 15,
+          "value" : true,
+          "uuid" : "35CE7900-6E4B-48AA-93B2-2CAFB54D67F0",
+          "name" : "sw_ps"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{40, 400}, {120, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "F76EB21F-DEA4-4261-B5F1-4FA8663D3DB0",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Name: folder 1",
+          "name" : "lb_name",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 350}, {120, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "F76EB21F-DEA4-4261-B5F1-4FA8663D3DB0",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "00 : 00",
+          "font_size" : 18,
+          "name" : "lb_time"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "MoveView",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "option"
+    },
+    "selected" : false
+  }
+]

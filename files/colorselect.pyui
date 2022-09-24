@@ -1,0 +1,199 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 16}, {96, 96}}",
+        "class" : "View",
+        "attributes" : {
+          "uuid" : "EDBB0F22-F194-4327-BB69-949D3CB790CC",
+          "frame" : "{{110, 110}, {100, 100}}",
+          "border_width" : 2,
+          "class" : "View",
+          "name" : "v_color",
+          "corner_radius" : 0
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 32}, {120, 64}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 2,
+          "font_name" : "<System>",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "59571C88-C28E-41BF-87AA-55A361F01D5A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "corner_radius" : 0,
+          "name" : "lb_color",
+          "font_size" : 24
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 128}, {160, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "self.col_select_picker",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "ColorPicker",
+          "uuid" : "CBD134F0-EA3F-494F-B587-E02D28C91193",
+          "corner_radius" : 0,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_picker",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 224}, {160, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "self.col_select_mixer",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "ColorMixer",
+          "uuid" : "CBD134F0-EA3F-494F-B587-E02D28C91193",
+          "corner_radius" : 0,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_mixer",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{220, 420}, {160, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.close_view",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "OK",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_ok",
+          "font_size" : 14
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{260, 32}, {120, 64}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 2,
+          "font_size" : 24,
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "59571C88-C28E-41BF-87AA-55A361F01D5A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "corner_radius" : 0,
+          "name" : "lb_alpha",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{220, 128}, {160, 64}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "D99C092E-BDFC-4941-8FDF-52C88FEE8246",
+          "corner_radius" : 10,
+          "frame" : "{{60, 144}, {200, 32}}",
+          "border_width" : 3,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "action" : "self.col_select_text",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "tx_alpha",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{220, 100}, {160, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 0,
+          "name" : "lb_error",
+          "text_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "frame" : "{{165, 224}, {150, 32}}",
+          "uuid" : "4ECCC335-0841-4FD4-9CF2-E5C4A5D0B448",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "error!",
+          "font_size" : 16,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 420}, {120, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "self.col_select_cancel",
+          "frame" : "{{200, 64}, {80, 32}}",
+          "title" : "Cancel",
+          "uuid" : "7BE44AC8-3B28-40AE-B9F3-FF3304FBA60F",
+          "corner_radius" : 20,
+          "border_color" : "RGBA(0.600000,0.666667,0.800000,1.000000)",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "bt_cancel",
+          "font_size" : 14
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {400, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "MoveView",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "color select"
+    },
+    "selected" : false
+  }
+]
