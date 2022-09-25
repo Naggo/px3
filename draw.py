@@ -137,31 +137,47 @@ class Pixel(NamedTuple):
 	y: int = 0
 	
 	def __add__(self, other):
-		if isinstance(other, Sequence):
-			return Pixel(self[0] + other[0], self[1] + other[1])
-		else:
-			return Pixel(self[0] + other, self[1] + other)
+		try:
+			if len(other) >= 2:
+				return Pixel(self[0] + other[0], self[1] + other[1])
+			else:
+				other = other[0]
+		except TypeError:
+			pass
+		return Pixel(self[0] + other, self[1] + other)
 	
 	def __sub__(self, other):
-		if isinstance(other, Sequence):
-			return Pixel(self[0] - other[0], self[1] - other[1])
-		else:
-			return Pixel(self[0] - other, self[1] - other)
+		try:
+			if len(other) >= 2:
+				return Pixel(self[0] - other[0], self[1] - other[1])
+			else:
+				other = other[0]
+		except TypeError:
+			pass
+		return Pixel(self[0] - other, self[1] - other)
 	
 	def __mul__(self, other):
-		if isinstance(other, Sequence):
-			return Pixel(self[0] * other[0], self[1] * other[1])
-		else:
-			return Pixel(self[0] * other, self[1] * other)
+		try:
+			if len(other) >= 2:
+				return Pixel(self[0] * other[0], self[1] * other[1])
+			else:
+				other = other[0]
+		except TypeError:
+			pass
+		return Pixel(self[0] * other, self[1] * other)
 	
 	def __truediv__(self, other):
 		return self.__floordiv__(other)
 	
 	def __floordiv__(self, other):
-		if isinstance(other, Sequence):
-			return Pixel(self[0] // other[0], self[1] // other[1])
-		else:
-			return Pixel(self[0] // other, self[1] // other)
+		try:
+			if len(other) >= 2:
+				return Pixel(self[0] // other[0], self[1] // other[1])
+			else:
+				other = other[0]
+		except TypeError:
+			pass
+		return Pixel(self[0] // other, self[1] // other)
 
 # ---:
 
