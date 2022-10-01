@@ -5,18 +5,16 @@ from scene import *
 import sound
 import ui
 
-from collections.abc import Sequence
 from typing import NamedTuple
 
 import clipboard
 import datetime
 import dialogs
 import json
-import math
 import os
 
 from my_files import my_files
-from my_funcs import pil2ui, image4scene, sc_gif
+from my_funcs import image4scene, sc_gif
 from my_nodes import ButtonNode, TTLNode
 from my_views import MoveView
 
